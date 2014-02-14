@@ -1,4 +1,3 @@
-import java.util.*;
 /**
  * Created by poriesto on 2/14/14.
  */
@@ -16,8 +15,6 @@ public class lab1n2 {
             init_money += doxod;
             year++;
         }
-        System.out.print("Results:\n");
-        System.out.print("final result money = "); System.out.print(init_money); System.out.print("\n");
-        System.out.print("Years = "); System.out.print(year); System.out.print("\n");
+        System.out.println("\nResults:" + "\n" + "Final result money = " + init_money + "\n" + "Years = " + year);
     }
 }
