@@ -8,17 +8,20 @@
  *Учесть, что проценты начисляются раз в месяц и капитализируются.Сосчитать и вывести на дисплей результат подсчета.
  * */
 public class lab1n2 {
-    public static void main(String[] argc){
+    public static void main(String[] argv){
         int year = 0;
-        float init_money = Float.parseFloat(argc[0]), percent_per_mo = Float.parseFloat(argc[1]), doxod = (init_money*percent_per_mo)*12, target = init_money*2;
-        System.out.println("Initial data:\n" + "Initial money = " + init_money + "\nDoxod per mo = " + init_money*percent_per_mo +
-                "\nDoxod per year = " + doxod + "\nTarget money = " + target + "\n");
+        float init_money = Float.parseFloat(argv[0]), percent_per_year = Float.parseFloat(argv[1])/100, doxod = init_money*percent_per_year, target = init_money*2;
+        System.out.println("Initial data:\n" + "Initial money = " + init_money + "\nPercent = " + percent_per_year + "%\nDoxod per year = " + doxod + "\nTarget money = " + target + "\n");
 
         while(init_money < target){
             init_money += doxod;
+            System.out.print(init_money);
+            System.out.print("\n");
             year++;
-            if(year > 1){
-                doxod = (init_money*percent_per_mo)*12;
+            if(year > 0){
+                doxod = init_money*percent_per_year;
+                System.out.print(doxod);
+                System.out.print("\n");
             }
         }
 
