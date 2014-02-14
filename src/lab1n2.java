@@ -11,7 +11,7 @@
     public static void main(String[] argv){
         double month = 0, summ_month = 12, year;
         float init_money = Float.parseFloat(argv[0]), percent_per_year = Float.parseFloat(argv[1])/100, doxod = init_money*percent_per_year, target = 20000;
-        System.out.println("Initial data:\n" + "Initial money = " + init_money + "\nPercent = " + percent_per_year + "%\nDoxod per year = " + doxod + "\nTarget money = " + target + "\n");
+        System.out.println("Initial data:\n" + "Initial money = " + init_money + "\nPercent = " + percent_per_year + "%\nDoxod per year = " + doxod + "\nTarget money = " + target);
 /*
         while(init_money < target){
             init_money += doxod;
