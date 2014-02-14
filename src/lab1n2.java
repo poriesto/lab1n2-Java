@@ -7,12 +7,12 @@
  *1-ое число - количество денег, 2-ое число-годовой процент.
  *Учесть, что проценты начисляются раз в месяц и капитализируются.Сосчитать и вывести на дисплей результат подсчета.
  * */
-public class lab1n2 {
+ public class lab1n2 {
     public static void main(String[] argv){
-        int year = 0;
-        float init_money = Float.parseFloat(argv[0]), percent_per_year = Float.parseFloat(argv[1])/100, doxod = init_money*percent_per_year, target = init_money*2;
+        double month = 0, summ_month = 12, year;
+        float init_money = Float.parseFloat(argv[0]), percent_per_year = Float.parseFloat(argv[1])/100, doxod = init_money*percent_per_year, target = 20000;
         System.out.println("Initial data:\n" + "Initial money = " + init_money + "\nPercent = " + percent_per_year + "%\nDoxod per year = " + doxod + "\nTarget money = " + target + "\n");
-
+/*
         while(init_money < target){
             init_money += doxod;
             System.out.print(init_money);
@@ -23,8 +23,16 @@ public class lab1n2 {
                 System.out.print(doxod);
                 System.out.print("\n");
             }
+        }*/
+        float d_per_m = init_money*(percent_per_year);
+        while(init_money < target){
+            d_per_m = init_money*(percent_per_year);
+            init_money = init_money + (d_per_m/12);
+            month++;
         }
-
+        month = month+1;
+        // year = log(1+percent)X/sum
+        year = month/summ_month;
         System.out.println("\nResults:" + "\n" + "Final result money = " + init_money + "\n" + "Years = " + year);
     }
 }
