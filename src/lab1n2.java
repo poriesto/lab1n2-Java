@@ -9,8 +9,8 @@
  * */
  public class lab1n2 {
     public static void main(String[] argv){
-        double month = 0, summ_month = 12, year;
-        float init_money = Float.parseFloat(argv[0]), percent_per_year = Float.parseFloat(argv[1])/100, doxod = init_money*percent_per_year, target = 20000;
+        double month = 0, summ_month = 12, year, d_per_m;
+        double init_money = Double.parseDouble(argv[0]), percent_per_year = Double.parseDouble(argv[1])/100, doxod = init_money*percent_per_year, target = 20000;
         System.out.println("Initial data:\n" + "Initial money = " + init_money + "\nPercent = " + percent_per_year + "%\nDoxod per year = " + doxod + "\nTarget money = " + target);
 /*
         while(init_money < target){
@@ -24,7 +24,6 @@
                 System.out.print("\n");
             }
         }*/
-        float d_per_m = init_money*(percent_per_year);
         while(init_money < target){
             d_per_m = init_money*(percent_per_year);
             init_money = init_money + (d_per_m/12);
