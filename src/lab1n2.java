@@ -9,7 +9,7 @@
  * */
  public class lab1n2 {
     public static void main(String[] argv){
-        double month = 0, summ_month = 12, year, d_per_m;
+        double month = 0, summ_month = 12, d_per_m;
         double init_money = Double.parseDouble(argv[0]), percent_per_year = Double.parseDouble(argv[1])/100;
         double doxod = init_money*percent_per_year, target = init_money*2;
 
@@ -21,8 +21,7 @@
             month++;
         }
         month = month+1;
-        year = month/summ_month;
 
-        System.out.println("\nResults:" + "\n" + "Final result money = " + init_money + "\n" + "Years = " + year);
+        System.out.println("\nResults:" + "\n" + "Final result money = " + init_money + "\n" + "Years = " + month/summ_month);
     }
 }
