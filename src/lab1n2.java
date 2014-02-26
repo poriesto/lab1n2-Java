@@ -21,7 +21,7 @@ import java.util.*;
         target = init_money*2;
     }
     public void print_initial_date(){
-        System.out.println("Initial money: " + init_money + "\nTarget money: " + target + "\nPercent per year: " + percent_per_year*100);
+        System.out.println("Initial money: " + init_money + "\nTarget money: " + target + "\nPercent per year: " + percent_per_year*100 +"%");
     }
     public void print_results(){
         System.out.println("Result money = " + init_money + "\nYears: " +(month / year) + "\nDoxod per month:");
@@ -30,7 +30,7 @@ import java.util.*;
     private void DPM(){
         int i = 0;
         while(i != dpm.size()){
-            System.out.println("\tMonth " + i + " Doxod = " + dpm.elementAt(i));
+            System.out.println("\tMonth " + (i+1) + " Doxod = " + dpm.elementAt(i));
             i++;
         }
     }
@@ -46,7 +46,6 @@ import java.util.*;
 
 public class lab1n2 {
     public static void main(String[] argv){
-
         Economy ec = new Economy();
         ec.init(argv);
         ec.print_initial_date();

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c146fe6-00b6-4655-a4ba-56c603822c43" name="Default" comment="new class">
+    <list default="true" id="54bf9fd6-d799-4bdd-9f7c-1d00c486e938" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab1n2.java" afterPath="$PROJECT_DIR$/src/lab1n2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -70,10 +70,8 @@
       <file leaf-file-name="lab1n2.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.08354431" vertical-offset="0" max-vertical-offset="682">
-              <folding>
-                <element signature="e#621#629#0" expanded="true" />
-              </folding>
+            <state line="24" column="4" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.33386838" vertical-offset="0" max-vertical-offset="689">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,9 +94,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="17" />
-    <option name="width" value="1364" />
-    <option name="height" value="734" />
+    <option name="x" value="5" />
+    <option name="y" value="23" />
+    <option name="width" value="1348" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -116,7 +115,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -150,21 +149,34 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Application.lab1n2">
+    <configuration default="false" name="lab1n2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1n2" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="10000 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lab1n2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -292,32 +304,21 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="lab1n2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="lab1n2" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="10000 1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lab1n2" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.lab1n2" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.lab1n2" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -336,76 +337,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c146fe6-00b6-4655-a4ba-56c603822c43" name="Default" comment="" />
-      <created>1392334068137</created>
-      <updated>1392334068137</updated>
+      <changelist id="54bf9fd6-d799-4bdd-9f7c-1d00c486e938" name="Default" comment="" />
+      <created>1393344901617</created>
+      <updated>1393344901617</updated>
     </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1392374516374</created>
-      <updated>1392374516374</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Some changes">
-      <created>1392386039599</created>
-      <updated>1392386039599</updated>
-    </task>
-    <task id="LOCAL-00003" summary="stream cout">
-      <created>1392386272056</created>
-      <updated>1392386272056</updated>
-    </task>
-    <task id="LOCAL-00004" summary="stream cout11">
-      <created>1392406748406</created>
-      <updated>1392406748406</updated>
-    </task>
-    <task id="LOCAL-00005" summary="some changes&#10;">
-      <created>1392411049271</created>
-      <updated>1392411049271</updated>
-    </task>
-    <task id="LOCAL-00006" summary="some changes&#10;">
-      <created>1392419161450</created>
-      <updated>1392419161450</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Clena">
-      <created>1392552784050</created>
-      <updated>1392552784050</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Clena&#10;">
-      <created>1392841708593</created>
-      <updated>1392841708593</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="17" width="1364" height="734" extended-state="0" />
+    <frame x="5" y="23" width="1348" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3231018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31825525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run emulator out" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34662578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -416,16 +385,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="1" />
-    <MESSAGE value="Some changes" />
-    <MESSAGE value="stream cout" />
-    <MESSAGE value="stream cout11" />
-    <MESSAGE value="some changes&#10;" />
-    <MESSAGE value="Cleanup" />
-    <MESSAGE value="Clena" />
-    <MESSAGE value="Clena&#10;" />
-    <MESSAGE value="new class" />
-    <option name="LAST_COMMIT_MESSAGE" value="new class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -437,352 +396,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="495">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="48" column="1" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="636">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="109" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="352">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="48" column="1" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="636">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="109" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="384">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="48" column="1" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="636">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="416">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="48" column="0" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="636">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="429">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="48" column="0" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="636">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="429">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="32" column="48" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="648">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="396">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="32" column="48" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="648">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="363">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="28" column="4" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="648">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="363">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="28" column="4" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="648">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="363">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="28" column="4" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="972">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="363">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="363">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="594">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="429">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="481">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="444">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="588">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="588">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="588">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="588">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="588">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="504">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="504">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="504">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="504">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="774">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="559">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="559">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="464">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="377">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="377">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="299">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="312">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="377">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="348">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="252">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="228">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="204">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1n2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.08354431" vertical-offset="0" max-vertical-offset="682">
-          <folding>
-            <element signature="e#621#629#0" expanded="true" />
-          </folding>
+        <state line="24" column="4" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.33386838" vertical-offset="0" max-vertical-offset="689">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -792,17 +477,6 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -837,7 +511,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
