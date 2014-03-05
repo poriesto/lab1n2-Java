@@ -18,6 +18,10 @@ import java.util.*;
     public void init(String[] str){
         init_money = Double.parseDouble(str[0]);
         percent_per_year = Double.parseDouble(str[1])/100;
+        if(percent_per_year < 0){
+            System.out.print("Input correct percent\n");
+            System.exit(0);
+        }
         target = init_money*2;
     }
     public void print_initial_date(){
@@ -46,10 +50,24 @@ import java.util.*;
 
 public class lab1n2 {
     public static void main(String[] argv){
-        Economy ec = new Economy();
-        ec.init(argv);
-        ec.print_initial_date();
-        ec.calculate();
-        ec.print_results();
+        try{
+            if(argv.length > 2){
+                System.out.print("Введите корректное число параметров(не больше двух)\n");
+                System.exit(0);
+            }
+            Economy ec = new Economy();
+            ec.init(argv);
+            ec.print_initial_date();
+            ec.calculate();
+            ec.print_results();
+        }
+        catch (ArrayIndexOutOfBoundsException e){
+            e.getMessage();
+            System.out.print("Please input parameters\n");
+        }
+        catch (NumberFormatException e){
+            e.getMessage();
+            System.out.print("Please input right parameters\n");
+        }
     }
 }
