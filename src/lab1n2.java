@@ -10,10 +10,11 @@
 import java.util.*;
  class Economy{
     private Double month = 0.0;
-    Integer year = 12;
-    private Double percent_per_year, doxod_per_month, target;
-    private Vector<Double> dpm = new Vector<Double>();
-    public Double init_money;
+    final private Integer year = 12;
+    private Double percent_per_year;
+    private Double target;
+    final private Vector<Double> dpm = new Vector<Double>();
+    private Double init_money;
 
     public void init(String[] str){
         init_money = Double.parseDouble(str[0]);
@@ -40,7 +41,7 @@ import java.util.*;
     }
     public void calculate(){
         while(init_money < target){
-            doxod_per_month = (init_money*(percent_per_year))/year;
+            Double doxod_per_month = (init_money * (percent_per_year)) / year;
             dpm.add(doxod_per_month);
             init_money = init_money + doxod_per_month;
             month++;
